@@ -4,20 +4,20 @@
 # Author: Your_name_here
 #########################
 
-print("Welcome traveler!")
+print("Welcome Earthling!")
 
-name = input("What is your name? ")
+name = input("What is your Birth Code? ")
 
 print("Hello {}!".format(name))
 
 print("How many companions do you have?")
-companions = 0
+companions = 3
 
 # Add your input code here
 
 print("Where do you want to go?")
-planet = ""
+planet = "HIP 13044 b"
 
 # Add your code here
 
-print("The Spaceship is taking off with {} people to planet {} ").format(companions+1, planet)
+print("The Spaceship is blasting off with {} Earthlings to Spherical rock {} ").format(companions+1, planet)
